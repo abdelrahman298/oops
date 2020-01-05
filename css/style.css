@@ -1,0 +1,796 @@
+/* general details */
+.others{
+    position: relative;
+    max-height: 25vh;
+
+}
+.others .oops-content .logo img{width: 13rem;}
+
+/* statr in Home page */
+.oops-logo{
+position: relative;
+overflow: hidden;
+}
+
+.oops-content{
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+}
+
+.first-color, .second-color {
+width: 50%;
+float: right;
+}
+
+.oops-content .first-color{
+background-color: rgba(204, 72, 92, 0.959);
+height: 100%;
+padding: 2rem 2rem 0 0 ;
+}
+.oops-content .first-color .fa-cart-plus{
+color: #fff;
+
+}
+.first-color .add-ads{
+background-color: #fff;
+border: 1px solid #fff;
+border-radius: 160px;
+width: 8rem;
+color: #D04D5F;
+
+}
+
+.oops-content .second-color{
+background-color: rgba(252, 141, 93, 0.959);
+height: 100%;
+}
+.oops-content .logo{
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+/* end oops section */
+/* start search-border */
+.search-border{
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(0%, -37%);
+
+}
+.search-border .search-color{
+    border: none;
+    background: linear-gradient(#CF455C, #FF8A5C);
+    padding: 2rem;
+    box-shadow: 9px 10px 16px -7px rgba(0,0,0,0.75);
+
+}
+
+.search-border .search-color .what-search{
+    border: 1px solid #fff;
+    border-radius: 160px;
+    width: 100%;
+    height: 3rem;
+}
+.search-border .search-color .where-search{
+    border: 1px solid #fff;
+    border-radius: 160px;
+    width: 100%;
+    height: 3rem;
+}
+
+.search-border .search-color .button-search{
+    border: 1px solid #fff;
+    border-radius: 160px;
+    width: 100%;
+    height: 3rem;
+    background-color: #fff;
+}
+
+/* end search-border */
+/* start product */
+
+#product .list-of-products{
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+#product .list-of-products .icon{
+    border-radius: 50%;
+    background: linear-gradient(#CF455C, #FF8A5C);
+    padding: 32px;
+    font-size: 36px;
+    margin-right: 13px;
+    width: 8rem;
+    color:#fff;
+    height: 8rem;
+}
+
+#product .list-of-products .title p{
+    border-radius: 160px;
+    background-color: #4B4644;
+    color: #fff;
+    border: none;
+    padding: 1px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* end product */
+/* start add-ads */
+#new-ads{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#new-ads .new-ads-title h2{
+    border-right: 5px solid orange;
+    padding: 12px;
+    color: #CF455C;
+}
+
+#new-ads .new-ads-content{
+    margin-top: 2rem;
+
+}
+
+#new-ads .new-ads-content .card{
+    border-radius: 21px;
+    margin-top: 1rem;
+}
+
+#new-ads .new-ads-content .card .card-title{
+    text-align: center;
+    font-size: 26px;
+}
+
+#new-ads .new-ads-content .card .card-text{
+    font-size: 26px;
+
+}
+#new-ads .new-ads-button button{
+    margin-top: 3rem;
+    border-radius: 50px;
+    border: none;
+    width: 19rem;
+    background: linear-gradient(#CF455C, #FF8A5C);
+    padding: 11px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+/* end add-ads */
+/* start subscribe */
+#subscribe{
+position: relative;
+
+}
+
+#subscribe img{
+width: 100%;
+}
+
+#subscribe .subscribe-content{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color:rgba(250, 137, 89, 0.925);
+    width: 100%;
+    height: 100%;
+}
+
+#subscribe .subscribe-text{
+    margin-top: 2rem;
+    
+}
+
+#subscribe .subscribe-title{
+    color:#fff;
+    font-size: 31px;
+    
+    }
+#subscribe .subscribe-email{
+    margin-top: 5rem;
+    border-radius: 30px;
+    border: none;
+    width: 37rem;
+    font-size: 24px;
+    padding: 20px 44px 20px 0px;
+    color: gray;
+}
+#subscribe .subscribe-button{
+    margin-top: 3rem;
+}
+#subscribe .subscribe-button button{
+border-radius: 50px;
+    border: none;
+    color: orange;
+    background-color: #fff;
+    width: 15rem;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#footer{background-color:#CF455C;color: #fff;padding: 2rem;}
+
+#footer .footer-logo{margin-bottom: 2rem;}
+
+#footer .footer-logo img{width: 11rem;}
+
+#footer .footer-quetion li{margin-bottom: 2rem;}
+
+#footer .get-app-title{margin-bottom: 2rem;font-size: 23px;}
+
+#footer .get-app-android {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 8px;
+    width: 16rem;
+    margin-bottom: 1rem;
+    margin-right: 7rem;
+    color: #CF455C;
+}
+
+#footer .get-app-android .fa-android{font-size: 32px;border: 2px solid #CF455C;padding: 3px;}
+
+#footer .get-app-apple{
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 8px;
+    width: 16rem;
+    margin-bottom: 1rem;
+    margin-right: 7rem;
+    color: #CF455C;
+}
+
+#footer .get-app-apple .fa-apple{font-size: 32px;border: 2px solid #CF455C;padding: 3px;}
+
+
+/* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page */
+/* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page */
+/* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page */
+/* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page *//* LogIn Page */
+
+#login{background-color: #F1F1F1; padding: 4rem 2rem;}
+
+#login .login-content{
+background-color:#fff;
+padding-right:2rem;
+height: 100%;
+position: relative;
+}
+
+#login .user-data{font-size:28px;position: absolute;top: 10%;width: 90%;}
+#login .user-name{margin-bottom: 4rem;}
+
+#login .user-name input{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background-color: #CF455C;
+    padding-right: 20px;
+    color: #fff;
+    height: 62px;
+}
+
+#login .user-password{margin-bottom: 4rem;}
+
+#login .user-password input{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background-color: #CF455C;
+    padding-right: 20px;
+    color: #fff;
+    height: 62px;
+}
+
+#login .login-button{margin-bottom: 4rem;}
+
+#login .login-button button{
+        width: 40%;
+        border: none;
+        border-radius: 50px;
+        background-color: #CF455C;
+        color: #fff;
+        height: 50px;
+}
+
+#login .login-button button:hover{background-color: #AB3145;}
+
+#login .login-options div{display: inline;}
+#login .login-options .forgot-password{float: right;}
+#login .login-options  .create-new-account{float: left;}
+#login .login-options a {color:#CF455C; font-size: 16px;}
+#login  .login-image img{height: 100%;width: 100%;}
+
+
+/* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 */
+/* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 */
+/* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 *//* crete-ad-1 */
+#crete-ad-1{
+    background-color:rgb(252, 252, 252);
+    padding: 3rem 2rem;
+}
+.ad-1-content{
+    background-color: #ECECEC;
+    padding: 2rem 1rem;
+    border-radius: 23px;
+    box-shadow: 14px 14px 25px -17px rgba(0,0,0,0.75);
+
+}
+
+.ad-1-content h5{
+    margin-bottom: 11px;
+    color:#F6855B;
+}
+.ad-1-first-type{
+    margin-bottom: 1rem;
+}
+.ad-1-first-type input{
+    width: 84%;
+    border-radius: 50px;
+    border: none;
+    height: 40px;   
+}
+
+.ad-1-second-type{
+    margin-bottom: 1rem;
+
+}
+
+.ad-1-second-type .second-type-option{
+    width: 84%;
+    border: none;
+    border-radius:50px;
+    height: 40px;   
+
+}
+
+.ad-1-adds{
+    margin-bottom: 11px ;
+}
+
+.ad-1-first-type textarea{
+    width: 80%;
+    border-radius: 30px;
+    border:none;
+}
+
+
+.ad-1-button button{
+    border:none;
+    border-radius: 60px;
+    background: linear-gradient(#CF455C, #FF8A5C); 
+    width: 9rem;
+    height: 3rem;
+    color: #fff;
+    
+}
+
+.ad-1-content .ad-1-img img{
+    height: 100%;
+    width: 100%;
+}
+
+/*-----------------------------------car-details----------------------------------------*/
+/*-----------------------------------car-details----------------------------------------*/
+/*-----------------------------------car-details----------------------------------------*/
+
+#car-details{
+    padding: 3rem 2rem;
+    font-size: 25px;
+    background-color: rgb(240, 240, 240);
+}
+
+.car-type{color:orange;}
+.car-type p span{border-left: 2px solid orange; padding-left: 5px;}
+
+.car-image{margin-bottom: 2rem;}
+.car-image img{width: 100%;}
+.car-image img:hover{
+opacity: 0.3;
+transition: .7s ease;
+}
+
+.fav-complain{margin-bottom: 2rem;}
+.fav-complain .fav{float: left;color:#ff617b;}
+.fav-complain .fav button{border: none;border:2px solid #ff617b}
+.fav-complain .complain{float: right;color:#fa8859;}
+.fav-complain .complain button{border: none;border:2px solid #fa8859;}
+.details .right-bar p{border-radius: 60px; padding: 1rem;background-color: #fff;margin-bottom: 3rem;padding-right: 2rem;}
+.details .left-bar p{border-radius: 60px; padding: 1rem;background-color: #fff;margin-bottom: 3rem;padding-right: 2rem;}
+.more-details h4{margin-bottom: 1rem; margin-right: 2rem;color:#ff617b;}
+.more-details p{
+    border-radius: 60px;
+    padding: 2rem 3rem;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    box-shadow: 3px 15px 41px -6px rgba(0,0,0,0.75);
+}
+
+.send-all .send{
+border: none;
+background-color:#ab3145;
+border-radius: 60px;
+padding: 1rem 3rem;
+color: #fff;
+width: 21rem;
+}
+
+
+.send-message h4{margin-bottom: 1rem; margin-right: 2rem;color:#ff617b;}
+.send-message textarea{
+border-radius: 22px;
+padding: 1rem;
+background-color: #fff;
+margin-bottom: 3rem;
+width: 100%;
+border:none;
+box-shadow: 3px 15px 41px -6px rgba(0,0,0,0.75);
+}
+
+.car-price p {
+border:none;
+border-radius:60px;
+padding: 10px;
+color:#ab3145;;
+background-color:#fff;
+font-size: 33px;
+margin-bottom: 5rem;
+}
+
+.send-call .send{
+    width: 100%;
+    padding: 9px 2rem;
+    border: none;
+    border-radius: 60px;
+    background-color:#ab3145;
+    font-size: 23px;
+    color: #fff;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.send-call .call{
+    width: 100%;
+    padding: 9px 2rem;
+    border: none;
+    border-radius: 60px;
+    background-color:#f97d48;
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.client-name{
+    padding: 2rem 2rem;
+    border-radius: 20px;
+    background-color:#fff;
+    color: #ab3145;
+    margin-bottom: 2rem;
+}
+
+.client-name .period,.his-ads{font-size: 12px;}
+.instruction{
+    background-color: rgba(0, 0, 0, 0.568);
+    color:#fff;
+    border-radius: 20px;
+    padding: 2rem 1px 15px 0px;
+    font-size: 16px;
+}
+
+.instruction .title{margin-bottom: 2rem;}
+.instruction li{margin-bottom: 1rem;}
+
+/*------------------------------------------car-products---------------------------------------------------------------- */
+/*------------------------------------------car-products---------------------------------------------------------------- */
+/*------------------------------------------car-products---------------------------------------------------------------- */
+
+.looking-for{
+    border: none;
+    background: linear-gradient(#CF455C, #FF8A5C);
+    padding: 2rem;
+    box-shadow: 9px 10px 16px -7px rgba(0,0,0,0.75);
+
+}
+
+.looking-for form input{
+    border: 1px solid #fff;
+    border-radius: 160px;
+    width: 100%;
+    height: 3rem;
+    padding-right: 1rem;
+}
+
+.looking-for .looking-1{
+    margin-bottom: 2rem;
+}
+
+.car-product{background-color: rgb(243, 243, 243);padding: 1rem;}
+.car-product .special-car{margin-bottom: 4rem;}
+.special-car-title {margin-bottom: 3rem;}
+.special-car-title h3{color:#CF455C;border-right: 3px solid orange;padding-right: 1rem;}
+
+.special-car-product{margin-top: 5rem;}
+.special-car-product .card{border-radius: 21px;box-shadow: 10px 10px 48px -26px rgba(0,0,0,0.75);}
+.special-car-product .card-text li{font-size: 30px;}
+
+
+.car-product .normal-car{margin-bottom: 4rem;}
+.normal-car-title {margin-bottom: 3rem;}
+.normal-car-title h3{color:#CF455C;border-right: 3px solid orange;padding-right: 1rem;}
+.normal-car-product .card{border-radius: 21px;box-shadow: 10px 10px 48px -26px rgba(0,0,0,0.75);margin-top: 2rem;}
+.normal-car-product .card-text li{font-size: 30px;}
+
+
+.car-product .number-page{margin-top: 8rem;margin-bottom: 5rem;}
+.car-product .number-page li{
+display: inline;
+margin-left: 2rem;
+}
+
+.car-product .number-page li a{
+color: #fff;
+font-size: 29px;
+background-color: #AB3145;
+padding: 9px 20px;
+border-radius: 20px;
+}
+
+
+
+
+
+
+
+/* MediaQuery *//* MediaQuery *//* MediaQuery *//* MediaQuery *//* MediaQuery *//* MediaQuery */
+/* MediaQuery *//* MediaQuery *//* MediaQuery *//* MediaQuery *//* MediaQuery *//* MediaQuery */
+/* MediaQuery *//* MediaQuery *//* MediaQuery *//* MediaQuery *//* MediaQuery *//* MediaQuery */
+
+@media (max-width: 1025px) {
+    /* start home page */
+
+#subscribe .subscribe-title {font-size: 26px;}
+
+#subscribe .subscribe-email {margin-top: 2rem;width: 34rem;font-size: 18px;}
+
+#subscribe .subscribe-button {margin-top: 2rem;}
+
+#subscribe .subscribe-button button {width: 11rem;font-size: 23px;}
+
+#footer .get-app-title {font-size: 19px;}
+
+#footer .get-app-android {padding: 2px;margin-right: 1rem;margin-bottom: 3rem;}
+
+#footer .get-app-apple {padding: 2px;margin-right: 1rem;}
+
+/*--------------------------------------------------------------- start login----------------------------------------------- */
+#login .login-button {margin-bottom: 1rem;}
+/*--------------------------------------------------------------- start car-details----------------------------------------------- */
+.car-price p {font-size: 21px;margin-bottom: 1rem;}
+.send-call .send {
+    padding: 6px 6px;
+    font-size: 21px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.send-call .call {padding: 9px 2rem;margin-bottom: 2rem;}
+.client-name {padding: 10px 10px;margin-bottom: 10px;}
+.client-name .name{font-size: 16px;}
+.instruction {font-size: 15px;}
+#car-details .fav-complain {margin-bottom: 1rem;font-size: 19px;}
+#car-details .details{font-size: 19px;}
+#car-details .more-details{font-size: 19px;}
+#car-details .send-message{font-size: 19px;}
+#car-details .more-details{font-size: 19px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    /* start home page */
+
+.oops-logo .logo img{width: 12rem;}
+
+#product .list-of-products .icon {padding: 4px;font-size: 38px;margin-right: 23px;margin-left: 23px;}
+
+#product .list-of-products .title p {padding: 6px;margin-top: 6px;font-size: 14px;}
+
+#new-ads .new-ads-content .card .card-title {font-size: 23px;}
+
+#new-ads .new-ads-content .card .card-text {font-size: 24px;}
+
+#new-ads .new-ads-button button {margin-top: 2rem;width: 15rem;padding: 8px;}
+
+#subscribe .subscribe-title {font-size: 24px;}
+
+#subscribe .subscribe-email {margin-top: 5px;width: 22rem;font-size: 16px;padding: 15px 44px 15px 0px;}
+
+#subscribe .subscribe-button {margin-top: 1rem;}
+
+#subscribe .subscribe-button button {width: 8rem;font-size: 21px;padding: 4px;}
+
+#footer .footer-logo {margin-bottom: 1rem;}
+
+#footer .footer-logo img {width: 10rem;}
+
+#footer .get-app-title {font-size: 14px;font-weight: bold;}
+
+#footer .get-app-android {padding: 1px;margin-right: 1px;margin-bottom: 2rem;width: 12rem;}
+
+#footer .get-app-android h5{font-size: 16px;}
+
+#footer .get-app-android .fa-android{font-size: 28px;}
+
+#footer .get-app-apple {padding: 1px;margin-right: 1px;width: 12rem;}
+
+#footer .get-app-apple h5{font-size: 16px;}
+
+#footer .get-app-apple .fa-apple{font-size: 28px;}
+
+/*--------------------------------------------------------------- start login----------------------------------------------- */
+#login .user-name {margin-bottom: 1rem;}
+#login .user-password {margin-bottom: 1rem;}
+#login .user-password input {height: 43px;}
+#login .user-name input {height: 43px;}
+#login .login-button {margin-bottom: 2rem;}
+#login .login-button button {height: 43px;}
+
+/*--------------------------------------------------------------- start adding-ad-1----------------------------------------------- */
+.ad-1-adds {font-size: 11px;}
+/*--------------------------------------------------------------- start cars-product----------------------------------------------- */
+.special-car-product .card-text li {font-size: 18px;}
+.normal-car-product .card-text li {font-size: 18px;}
+.car-product .number-page li a {font-size: 20px;}
+.car-product .number-page {margin-top: 10px;margin-bottom: 2rem;}
+
+/*--------------------------------------------------------------- start car-details----------------------------------------------- */
+
+}
+
+
+
+
+
+@media (max-width: 426px) {
+/*----------------------------------------------start home page-------------------------------------------------------------*/
+.others .first-color .add-ads {width: 5rem;font-size: 14px;}
+.others .oops-content .logo img {width: 10rem;}
+.oops-logo .oops-content .first-color {padding: 1rem 1rem 0 0;}
+.oops-logo .first-color .add-ads{width: 70px;font-size: 12px;}
+.oops-logo .oops-content .first-color .fa-cart-plus {font-size: 13px;}
+.oops-logo .logo img {width: 10rem;}
+
+#search-border .search-color {padding: 1rem;}
+
+#search-border .search-color .what-search {height: 2rem;}
+
+#search-border .search-color .where-search {height: 2rem;}
+
+#search-border .search-color .button-search { width: 100%;height: 2rem;font-size: 15px;}
+
+#new-ads .new-ads-content .card .card-title {font-size: 18px;}
+
+#new-ads .new-ads-content .card .card-text {font-size: 17px;}
+
+#new-ads .new-ads-content .card-body {padding: 10px;}
+
+#new-ads .new-ads-title h2 {padding: 8px;font-size: 25px;}
+
+#new-ads {margin-top: 0rem;}
+
+#new-ads .new-ads-content {margin-top: 0rem;}
+
+#new-ads .new-ads-button button {margin-top: 1rem;width: 9rem;padding: 3px;}
+
+#subscribe .subscribe-text {margin-top: 10px;}
+
+#subscribe .subscribe-title {font-size: 15px;margin-top: 0;margin-bottom: 10px;}
+
+#subscribe .subscribe-email {margin-top: 4px;width: 14rem;font-size: 15px;padding: 2px 10px 4px 0px;}
+
+#subscribe .subscribe-button {margin-top: 4px;}
+
+#subscribe .subscribe-button button {width: 7rem;font-size: 18px;padding: 1px;}
+
+#footer .footer-logo img {width: 6rem;}
+
+#footer .footer-about{font-size: 13px;}
+
+#footer .footer-quetion{font-size: 13px;}
+
+#footer .footer-quetion li{margin-bottom: 1rem;}
+
+#footer .get-app-android {margin-right: 70px;}
+
+#footer .get-app-apple {margin-right: 70px;}
+    /*------------------------------------------------------------End home page--------------------------------------------- */
+
+/*--------------------------------------------------------------- start login----------------------------------------------- */
+#login {background-color: #F1F1F1;padding: 1rem 1rem;}
+#login .login-content{padding-right: 10px;}
+#login .login-options .create-new-account {float: right;}
+
+
+#login .user-name {margin-bottom: 3px;}
+#login .user-password {margin-bottom: 3px;}
+#login .user-password input {height: 26px;}
+#login .user-name input {height: 26px;}
+#login .login-button {margin-bottom: 3px;}
+#login .login-button button {height: 26px;}
+#login .user-data {font-size: 12px;}
+#login .user-name input {height: 26px;}
+#login .user-password input {height: 26px;}
+#login .login-options a {font-size: 12px;}
+/*--------------------------------------------------------------- start adding-ad-1----------------------------------------------- */
+.ad-1-img{display:none}
+/*--------------------------------------------------------------- start cars-product----------------------------------------------- */
+.looking-for .looking-1 {margin-bottom: 1rem;font-size: 13px;}
+.looking-for .looking-1 .type{margin-top:1rem;}
+.looking-for .looking-2 .price{margin-bottom: 1rem;}
+.looking-for .looking-2 .year{margin-bottom: 1rem;}
+.search-border {
+-webkit-transform: translate(-50%, -21%);
+-moz-transform: translate(-50%, -21%);
+transform: translate(0%, -21%);
+}
+
+.special-car-title {margin-bottom: 1rem;}
+.special-car-product {margin-top: 5px;}
+.special-car-product .card-text li {font-size: 15px;}
+.special-car-product .card-body h4{font-size: 18px;}
+
+.car-product .special-car {margin-bottom: 3rem;}
+.normal-car-title {margin-bottom: 1px;}
+.normal-car-product .card-text li {font-size: 15px;}
+.normal-car-product .card-body h4{font-size: 18px;}
+.car-product .number-page li a {font-size: 15px;}
+
+/*--------------------------------------------------------------- start car-details----------------------------------------------- */
+/* #car-details .car-type{font-size:15px}
+.car-price p {font-size: 14px;margin-bottom: 1px;padding: 7px;}
+.send-call .send {
+    padding: 4px 4px;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.send-call .call {padding: 4px 4px;margin-bottom: 10px;font-size: 18px;}
+.client-name {padding: 10px 10px;margin-bottom: 10px;}
+.client-name .name{font-size: 15px;}
+.instruction {font-size: 15px;}
+.instruction .title {margin-bottom: 1rem;font-size: 15px;}
+#car-details .fav-complain {margin-bottom: 1rem;font-size: 19px;}
+#car-details .details{font-size: 19px;}
+#car-details .send-message{font-size: 19px;}
+#car-details .more-details{font-size: 19px;} */
+#car-details .details {font-size: 15px;}
+#car-details .more-details {font-size: 15px;}
+#car-details .edit{margin-top: 2rem;}
+
+
+
+
+
+
+}
